@@ -8,7 +8,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm">
       <nav className="mx-auto max-w-6xl px-6 py-5 flex items-center justify-between">
         <a href="#" className="font-serif text-2xl tracking-tight text-foreground">
-          Hvile
+          ПолпредРФ
         </a>
 
         {/* Desktop Navigation */}
@@ -17,25 +17,25 @@ export function Header() {
             href="#philosophy"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
           >
-            Философия
+            О тренинге
           </a>
           <a
             href="#features"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
           >
-            Возможности
+            Программа
           </a>
           <a
             href="#pricing"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
           >
-            Тарифы
+            Форматы
           </a>
           <a
             href="#contact"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
           >
-            Контакты
+            Записаться
           </a>
         </div>
 
@@ -43,7 +43,7 @@ export function Header() {
           href="#contact"
           className="hidden md:inline-flex px-5 py-2.5 bg-primary text-primary-foreground text-sm rounded-full hover:opacity-90 transition-opacity duration-300"
         >
-          Начать путь
+          Записаться
         </a>
 
         {/* Mobile Menu Button */}
@@ -65,35 +65,35 @@ export function Header() {
               onClick={() => setIsOpen(false)}
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Философия
+              О тренинге
             </a>
             <a
               href="#features"
               onClick={() => setIsOpen(false)}
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Возможности
+              Программа
             </a>
             <a
               href="#pricing"
               onClick={() => setIsOpen(false)}
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Тарифы
+              Форматы
             </a>
             <a
               href="#contact"
               onClick={() => setIsOpen(false)}
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Контакты
+              Записаться
             </a>
             <a
               href="#contact"
               onClick={() => setIsOpen(false)}
               className="mt-2 px-5 py-2.5 bg-primary text-primary-foreground text-sm rounded-full text-center"
             >
-              Начать путь
+              Записаться
             </a>
           </div>
         </div>

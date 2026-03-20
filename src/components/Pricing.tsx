@@ -2,27 +2,27 @@ import { Check } from "lucide-react";
 
 const plans = [
   {
-    name: "Личный",
+    name: "Студент",
     price: "Бесплатно",
-    description: "Для тех, кто начинает путь осознанной продуктивности",
-    features: ["Неспешное управление задачами", "Ежедневная сессия фокуса", "Еженедельные размышления", "Доступ в приложении"],
-    cta: "Начать бесплатно",
+    description: "Для студентов и аспирантов по предъявлению студенческого билета",
+    features: ["Доступ к лекциям", "Раздаточные материалы", "Тестирование по итогам", "Сертификат участника"],
+    cta: "Записаться",
     highlighted: false,
   },
   {
-    name: "Профи",
-    price: "990 ₽",
-    period: "/мес",
-    description: "Для тех, кто готов углубить практику",
+    name: "Преподаватель",
+    price: "2 500 ₽",
+    period: "/чел",
+    description: "Для педагогов и научных сотрудников вузов",
     features: [
-      "Всё из тарифа Личный",
-      "Безлимитные сессии фокуса",
-      "Расписание часов тишины",
-      "Мягкая аналитика",
-      "Синхронизация с календарём",
-      "Приоритетная поддержка",
+      "Всё из формата Студент",
+      "Методические разработки",
+      "Кейсы для использования в курсах",
+      "Доступ к записям тренинга",
+      "Удостоверение о повышении квалификации",
+      "Нетворкинг с коллегами",
     ],
-    cta: "Начать путь",
+    cta: "Записаться",
     highlighted: true,
   },
 ];
@@ -32,11 +32,11 @@ export function Pricing() {
     <section id="pricing" className="py-32 px-6">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-20">
-          <span className="text-sm uppercase tracking-widest text-amber mb-4 block">Тарифы</span>
+          <span className="text-sm uppercase tracking-widest text-amber mb-4 block">Форматы участия</span>
           <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground mb-4 text-balance">
-            Простые и честные цены
+            Выберите свой формат
           </h2>
-          <p className="text-muted-foreground text-lg">Без скрытых платежей. Отмена в любой момент.</p>
+          <p className="text-muted-foreground text-lg">Для студентов — бесплатно. Для преподавателей — с методической поддержкой.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">

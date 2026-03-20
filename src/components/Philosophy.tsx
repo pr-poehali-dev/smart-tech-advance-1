@@ -6,37 +6,38 @@ export function Philosophy() {
           {/* Left: Image */}
           <div className="relative aspect-[4/5] bg-muted rounded-lg overflow-hidden">
             <img
-              src="/minimal-scandinavian-workspace-with-natural-light-.jpg"
-              alt="Спокойное рабочее пространство"
+              src="https://cdn.poehali.dev/projects/4d16ab47-36b5-4420-80f2-a4d061567936/files/3e2c6619-ffb0-447e-ad95-ae4c96bdf214.jpg"
+              alt="Государственное управление России"
               className="w-full h-full object-cover"
             />
             {/* Decorative accent */}
             <div className="absolute bottom-6 left-6 right-6 p-6 bg-background/90 backdrop-blur-sm rounded-lg">
               <p className="text-sm text-muted-foreground italic">
-                «Когда жизнь и работа движутся в гармонии, лучшие идеи не просто появляются — они текут сами собой.»
+                «Полпреды — это глаза и руки президента в регионах, инструмент единства государственной власти.»
               </p>
             </div>
           </div>
 
           {/* Right: Text content */}
           <div className="flex flex-col gap-8">
-            <span className="text-sm uppercase tracking-widest text-sage">Наша философия</span>
+            <span className="text-sm uppercase tracking-widest text-sage">О тренинге</span>
             <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-tight text-balance">
-              Осознанная работа и тихий фокус
+              Зачем изучать институт полпредов
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                Hvile родился из простого наблюдения: самая значимая работа редко происходит среди постоянных
-                уведомлений и бесконечных списков задач. Она рождается в моменты тишины.
+                Институт полномочных представителей президента — ключевой элемент вертикали власти в России.
+                Понимание его работы необходимо каждому, кто изучает государственное управление и политическую систему страны.
               </p>
               <p>
-                Мы создали инструмент, который уважает ритм глубокой работы — создаёт пространство для концентрации,
-                рефлексии и того сосредоточенного внимания, которое превращает обычные задачи в мастерство.
+                Тренинг объединяет теоретическую базу и практические кейсы. Студенты и преподаватели получат глубокое
+                понимание механизмов координации между федеральным центром и регионами, актуальное для академической
+                и профессиональной деятельности.
               </p>
             </div>
             <div className="pt-4">
               <a href="#features" className="inline-flex items-center gap-2 text-foreground group">
-                <span className="border-b border-foreground pb-0.5">Наш подход</span>
+                <span className="border-b border-foreground pb-0.5">Программа тренинга</span>
                 <span className="text-terracotta group-hover:translate-x-1 transition-transform duration-300">→</span>
               </a>
             </div>

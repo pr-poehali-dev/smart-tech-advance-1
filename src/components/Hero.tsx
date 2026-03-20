@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import Icon from "@/components/ui/icon";
 
 export function Hero() {
   return (
@@ -7,20 +7,19 @@ export function Hero() {
         {/* Subtle badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sage/10 text-sage mb-8">
           <span className="w-2 h-2 rounded-full bg-sage" />
-          <span className="text-sm">Спокойный подход к работе</span>
+          <span className="text-sm">Тренинг для студентов и преподавателей</span>
         </div>
 
         {/* Main heading with serif font */}
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-tight text-foreground leading-[1.1] text-balance mb-8">
-          Продуктивность без
+          Институт полпредов
           <br />
-          <span className="italic">лишнего шума</span>
+          <span className="italic">Президента РФ</span>
         </h1>
 
         {/* Subheading */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
-          Hvile — инструмент осознанной продуктивности для тех, кто верит: лучшая работа рождается в тишине, а не в хаосе.
-          Фокус на главном.
+          Углублённый тренинг по системе полномочных представителей президента в федеральных округах: роль, полномочия и место в системе государственного управления России.
         </p>
 
         {/* CTA Buttons */}
@@ -29,14 +28,14 @@ export function Hero() {
             href="#contact"
             className="group inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground rounded-full text-base hover:opacity-90 transition-all duration-300"
           >
-            Начать бесплатно
-            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform duration-300" />
+            Записаться на тренинг
+            <Icon name="ArrowRight" size={18} className="group-hover:translate-x-1 transition-transform duration-300" />
           </a>
           <a
             href="#philosophy"
             className="inline-flex items-center gap-2 px-8 py-4 text-muted-foreground hover:text-foreground transition-colors duration-300"
           >
-            Наша философия
+            О программе
           </a>
         </div>
       </div>
